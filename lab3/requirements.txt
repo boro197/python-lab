@@ -1,0 +1,4 @@
+pybuilder==0.12.3
+numpy
+pandas
+opencv-python
