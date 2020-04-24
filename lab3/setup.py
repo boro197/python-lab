@@ -42,13 +42,23 @@ if __name__ == '__main__':
         project_urls = {},
 
         scripts = [],
-        packages = ['python.zadanie1'],
+        packages = [
+            'zadanie1',
+            'zadanie2',
+            'zadanie3',
+            'zadanie4'
+        ],
         namespace_packages = [],
-        py_modules = [],
+        py_modules = ['main'],
         entry_points = {},
         data_files = [],
         package_data = {},
-        install_requires = ['pybuilder==0.12.3'],
+        install_requires = [
+            'pybuilder==0.12.3',
+            'numpy',
+            'pandas',
+            'opencv-python'
+        ],
         dependency_links = [],
         zip_safe = True,
         cmdclass = {'install': install},
