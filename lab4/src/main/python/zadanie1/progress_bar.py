@@ -11,7 +11,6 @@ class ProgressBarObserver:
     def update_progress(self, progress):
         self.__progress_bar.update(progress)
 
-
     def is_finished(self):
         return self.__is_finished
 
